@@ -6,8 +6,8 @@ from selenium.webdriver.chrome.options import Options
 # run in terminal on local machine: 
 # /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
 
-username = "marianomossburg"
-password = "dogChair14!"
+username = ""
+password = ""
 
 def get_driver():
 
@@ -18,6 +18,7 @@ def get_driver():
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
     return driver
+
 
 # def clear_cache(driver):
 #     driver.get('chrome://settings/clearBrowserData') 
