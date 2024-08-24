@@ -6,12 +6,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-def click_post(post_element):
+def click_post():
 #     time.sleep(10)
     driver = config.get_driver()
-    driver.maximize_window()
-    
 
+    
     try:
         wait = WebDriverWait(driver,8)
         click_post = wait.until(

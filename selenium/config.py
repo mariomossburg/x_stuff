@@ -6,8 +6,8 @@ from selenium.webdriver.chrome.options import Options
 # run in terminal on local machine: 
 # /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
 
-username = ""
-password = ""
+username = "marianomossburg"
+password = "dogChair14!"
 
 def get_driver():
 
